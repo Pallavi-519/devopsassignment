@@ -1,0 +1,5 @@
+# Use an official Nginx base image
+FROM nginx:latest
+
+# Copy the content of your webapp folder to the Nginx server’s document root
+COPY ./webapp /usr/share/nginx/html
